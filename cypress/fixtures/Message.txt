@@ -1,0 +1,36 @@
+Customer:
+Customer added  Succesfully
+Customer updated Succesfully
+Customer not found
+Vehicle:
+Vehicle added  Succesfully
+Vehicle updated Succesfully
+Customer Concern/Problem Type:
+Problem Type added successfully
+VIN/Plate lookup:
+Invalid VIN
+Invalid Plate Lookup number
+RO:
+Repair Order generated Succesfully
+Repair Order updated Succesfully
+Customer Concerns:
+Customer Concerns added Succesfully
+Customer Concerns updated Succesfully
+Customer Concerns Deleted Succesfully
+if Customer Concerns job created:
+Concerns job created succesfully
+Concerns jobs created succesfully
+Concerns job updated succesfully
+Technician Recommendation:
+Technician Recommendation added Succesfully
+Technician Recommendation updated Succesfully
+Technician Recommendation Deleted Succesfully
+if Technician Recommendation job created:
+Technician Recommendation job created succesfully
+Technician Recommendation jobs created succesfully
+Technician Recommendation job updated succesfully
+Inspection:
+DVI Generated Succesfully
+DVI updated Succesfully
+Template created succesfully
+Template updated succesfully

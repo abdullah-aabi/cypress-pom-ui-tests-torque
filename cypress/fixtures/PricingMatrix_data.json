@@ -1,0 +1,13 @@
+{
+    "create": {
+        "matrixName_Unique": "PricingMatrix_1",
+        "markup0": 50,
+        "markup1": 30,
+        "markup2": 20,
+        "startRange0": "0.00",
+        "startRange1": 150,
+        "startRange2": 300,
+        "addRangeTextButton": "Add Range",
+        "removeRangeDropdown": "Remove Range"
+    }
+}

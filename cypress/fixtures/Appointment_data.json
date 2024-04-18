@@ -1,0 +1,21 @@
+{
+    "creates": {
+        "appointmentNotes": "This appointment is created by Automation bot.",
+        "customerConcernsMultiple": [
+            "Automatic Trans Shift Cable Replacement",
+            "Carrier Bearing Replacement",
+            "Gas Cap Replacement",
+            "Transfer Case Replacement",
+            "User Defined Concern 1",
+            "User Defined Concern 2",
+            "User Defined Concern 3"
+        ],
+        "successMsg": "Appointment has been created."
+    },
+    "opensAppointment": {},
+    "deletesAppointment": {
+        "deletingComments": "Closed by QA Bot, after apppointment completion.",
+        "deleteAppointmentTextButton": "Delete Appointment",
+        "successMsg": "Appointment has been closed"
+    }
+}

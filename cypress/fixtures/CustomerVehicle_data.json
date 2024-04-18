@@ -1,0 +1,205 @@
+{
+    "assertCustomerInformation": {
+        "nameAssertText": "test Customer",
+        "customerEmailAssertTextUnique": "qa+1@gmail.com",
+        "PhoneAssertTextUnique": "18009966781",
+        "address": "16465 Henderson Pass"
+    },
+    "assertVehicleInformation": {
+        "yearMakeModelAssertText": "2022 Honda Vezel",
+        "vehicleMake": "Honda",
+        "vehicleModel": "Vezel",
+        "vehiclePlateAssertTextUnique": "P9G76R",
+        "engineDisplacementAssertText": "Engine Size: 1.5 Liters",
+        "vehicleLitersDropdown": "Liters",
+        "vehicleColor": "Black"
+    },
+    "customerInformation": {
+        "name": "qa Bot",
+        "customerEmail_Unique": "qa.abdullah360+custoo2@gmail.com",
+        "Phone_Unique": 11000000001,
+        "address": "500/11, 1 WT Center, NY 10007, USA",
+        "customerSSN": "090078601",
+        "optionCGTextButton": "Insurance Provider",
+        "comments": "This customer is created by Cypress Bot",
+        "company": "Torque Inc",
+        "discount": "5",
+        "customerNotes": "This customer is created by QA Bot."
+    },
+    "vehicleInformation": {
+        "vehicleModelYear": "2015",
+        "vehicleModel": "Mustang",
+        "vehicleMake": "Ford",
+        "optionVTTextButton": "Sedan",
+        "vehiclePlate_Unique": "G_xy102",
+        "vehicleVin": "WP0CD2A91BS773285",
+        "vehicleLitersDropdown": "Liters",
+        "vehicleImageHolder": "vehicle.jpg",
+        "vehicleCylinders": "6",
+        "vehicleFuelTypeDropdown": "Hybrid",
+        "engineDisplacement": "2000",
+        "vehicleTypeDropdown": "Sedan",
+        "optionVLTextButton": "CC",
+        "engineTransmissionDropdown": "Manual",
+        "vehicleColor": "Cherry Red",
+        "vehicleOdometerUnitRadio": "KPH",
+        "unitNumber": "3145624",
+        "vehicleTrim": "LS",
+        "driveTrainDropdown": "RWD/Rear-Wheel Drive",
+        "pressureFLTyre": "36",
+        "pressureFRTyre": "35",
+        "pressureRRTyre": "34",
+        "pressureRLTyre": "37",
+        "vehicleTraveled": "11000",
+        "vehiclePurchase": "20/08/2015",
+        "vehicleInsuranceProvider": "Adamjee Insurance",
+        "vehicleInsuranceExpiry": "20/08/2025",
+        "vehiclePolicyNumber": "12345678910",
+        "vehicleNotes": "Old Car.",
+        "successMsg": "Information added successfully"
+    },
+    "addNewVehicleData": {
+        "Vehicle": {
+            "vehiclePlate": "GAB-1103"
+        }
+    },
+    "vehicleTwoInformation": {
+        "vehicleColor": "White",
+        "vehicleImageHolder": "vehicle.jpg",
+        "vehicleTraveled": "11000",
+        "vehiclePurchase": "20/08/2015",
+        "vehicleInsuranceProvider": "Adamjee Insurance",
+        "vehicleInsuranceExpiry": "20/08/2025",
+        "vehiclePolicyNumber": "12345678910",
+        "vehicleNotes": "Old Car.",
+        "successMsg": "Vehicle added successfully"
+    },
+    "import": {
+        "importFileHolder": "div.dialog__content__inner input[acceptedfiles='.csv,text/*']"
+    },
+    "vinLookup": {
+        "vinSearch": "1FTZX1722XKA76091",
+        "@vinSearch": 200,
+        "vehiclePlate_Unique": "G_xy122"
+    },
+    "plateLookup": {
+        "plateNo": "6NTE470",
+        "stateDropdown": "CA",
+        "vehiclePlateAssertValue": "6NTE470",
+        "@plateLookup": 200
+    },
+    "newData": {
+        "Customer": {
+            "name": "qa_one",
+            "customerEmail": "qa.abdullah360+2@gmail.com",
+            "phone": 11111111102
+        },
+        "Vehicle": {
+            "vehiclePlate": "GAB-1102"
+        }
+    },
+    "validData": {
+        "Customer": {
+            "name": "qa_one",
+            "customerEmail": "qa.abdullah360+1@gmail.com",
+            "phone": 11111111101,
+            "address": "Customer Suite 8500/11, 1 World Trade Center, Manhattan, NY 10007, USA",
+            "customerSSN": "090078601",
+            "customersGroupDropdown": "Insurance Provider",
+            "comments": "This customer is created by Cypress Bot",
+            "company": "Torque Inc",
+            "isDiscountCheck": "yes",
+            "discountToggleBtn": "yes",
+            "discount": "5",
+            "isTaxCheck": "yes",
+            "customerNotes": "Old Customer."
+        },
+        "Vehicle": {
+            "vehicleModelYear": "2015",
+            "vehicleModel": "Mustang",
+            "vehicleMake": "Ford",
+            "vehicleTypeDropdown": "Sedan",
+            "vehiclePlate": "GAB-1101",
+            "vehicleVin": "WP0CD2A91BS773285",
+            "vehicleCylinders": "6",
+            "stateDropdown": "Hybrid",
+            "engineDisplacement": "2000",
+            "vehicleLitersDropdown": "CC",
+            "engineTransmissionDropdown": "Manual",
+            "vehicleColor": "Cherry Red",
+            "vehicleOdometerUnitRadio": "KPH",
+            "vehicleTraveled": "11000",
+            "vehiclePurchase": "20/08/2015",
+            "vehicleInsuranceProvider": "Adamjee Insurance",
+            "vehicleInsuranceExpiry": "20/08/2025",
+            "vehiclePolicyNumber": "12345678910",
+            "vehicleNotes": "Old Car."
+        }
+    },
+    "exceedingCharaterLimits": {
+        "Customer": {
+            "name": "abcd efghiabcd efghiabcd efghiabcd efghis",
+            "customerEmail": "abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijs@abcde.hij",
+            "address": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1234567890123456",
+            "customerSSN": "123456789",
+            "comments": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1234567890abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1234567890abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1",
+            "company": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghis",
+            "isDiscountCheck": "yes",
+            "discountToggleBtn": "yes",
+            "discount": "101",
+            "customerNotes": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1234567890abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1234567890abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1"
+        },
+        "Vehicle": {
+            "vehicleModelYear": "20211",
+            "vehicleModel": "abcdefgh iabcdefgh iabcdefgh iabcdefgh ij",
+            "vehicleMake": "abcdefgh iabcdefgh iabcdefgh iabcdefgh ij",
+            "vehiclePlate": "gab17-2344d",
+            "vehicleVin": "WP0CD2A91BS7732851",
+            "vehicleCylinders": "101",
+            "engineDisplacement": "1000001",
+            "vehicleColor": "GreenGreenGreens",
+            "vehicleTraveled": "9999999999",
+            "vehicleInsuranceProvider": "abcd efghiabcd efghiabcd efghiabcd efghis",
+            "vehiclePolicyNumber": "123456789012345",
+            "vehicleNotes": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1234567890abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1234567890abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghi1"
+        }
+    },
+    "invalidData": {
+        "Customer": {
+            "name": "qa customer#2",
+            "customerEmail": "qa.abdullah360+3@gmail",
+            "phone": 11111111,
+            "customerSSN": "-9008oo1",
+            "company": "Torque Inc#2",
+            "isDiscountCheck": "yes",
+            "discountToggleBtn": "yes"
+        },
+        "Vehicle": {
+            "vehicleModelYear": "-15",
+            "vehicleMake": "Ford#2",
+            "vehicleModel": "Mustang#2",
+            "vehicleCylinders": "-6",
+            "engineDisplacement": "-2000",
+            "vehicleColor": "3 # Cherry Red",
+            "vehicleTraveled": "-s11000",
+            "vehiclePolicyNumber": "-#123456910"
+        }
+    },
+    "errorMessages": {
+        "exceedingCharaterLimits": [
+            "Character Limit Exceeded",
+            "Percentage Should be 0-100",
+            "Should be less than current year",
+            "Invalid Email"
+        ],
+        "invalidData": [
+            "Invalid Email",
+            "Only alphabets are allowed for this field.",
+            "Must be a positive number",
+            "Only alphanumeric are allowed for this field.",
+            "Must be greater than or equal to 1",
+            "Must be greater than or equal to 0",
+            "Must be between 0 & 100"
+        ]
+    }
+}

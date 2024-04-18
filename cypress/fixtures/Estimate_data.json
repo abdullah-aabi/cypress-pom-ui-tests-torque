@@ -1,0 +1,120 @@
+{
+    "assertConvertedJobs": {
+        "successMsg": "Data added successfully"
+    },
+    "fixedDiscCase0": {
+        "discountType": "$",
+        "name": "Labor ",
+        "hours": 2.5,
+        "rate": 8.5,
+        "discount": 5,
+        "isTaxed": false,
+        "lineItemTotalAssertValue": 53.75
+    },
+    "fixedDiscCase1": {
+        "discountType": "$",
+        "name": "Labor ",
+        "hours": 2.5,
+        "rate": 8.5,
+        "discount": 5,
+        "isTaxed": true,
+        "lineItemTotalAssertValue": 57.9425
+    },
+    "fixedDiscCase2": {
+        "discountType": "$",
+        "name": "Labor ",
+        "hours": 2.5,
+        "rate": 58.5,
+        "discount": 5,
+        "isTaxed": false,
+        "lineItemTotalAssertValue": 19.4375
+    },
+    "fixedDiscCase3": {
+        "discountType": "$",
+        "name": "Labor ",
+        "hours": 2.5,
+        "rate": 58.5,
+        "discount": 5,
+        "isTaxed": true,
+        "lineItemTotalAssertValue": 20.953625
+    },
+    "percentDiscCase0": {
+        "discountType": "%",
+        "name": "Labor ",
+        "hours": 2.5,
+        "rate": 8.5,
+        "discount": 5,
+        "isTaxed": false,
+        "lineItemTotalAssertValue": 55.8125
+    },
+    "percentDiscCase1": {
+        "discountType": "%",
+        "name": "Labor ",
+        "hours": 2.5,
+        "rate": 8.5,
+        "discount": 5,
+        "isTaxed": true,
+        "lineItemTotalAssertValue": 60.165875
+    },
+    "percentDiscCase2": {
+        "discountType": "%",
+        "name": "Labor ",
+        "hours": 2.5,
+        "rate": 58.5,
+        "discount": 5,
+        "isTaxed": false,
+        "lineItemTotalAssertValue": 23.215625
+    },
+    "percentDiscCase3": {
+        "discountType": "%",
+        "name": "Labor ",
+        "hours": 2.5,
+        "rate": 58.5,
+        "discount": 5,
+        "isTaxed": true,
+        "lineItemTotalAssertValue": 25.02644375
+    },
+    "applyTax": {
+        "taxTypeDropdown": "GST"
+    },
+    "authorizationManual": {
+        "authTypeTextButton": "Manual Authorization",
+        "authMethodDropdown": "In Person",
+        "authNotes": "Authorized Manually in person.",
+        "submitTextButton": "Authorize"
+    },
+    "creates": {
+        "createNewJobTextButton": "Create New Job",
+        "successMsg": "Job Created Successfully"
+    },
+    "createCanned": {
+        "createNewJobTextButton": "Service Guide",
+        "cannedServiceTextButtonUnique": "",
+        "addServiceTextButton": "Add Service"
+    },
+    "fillJob": {
+        "jobName_Unique": "customJob_1",
+        "jobMultiple_Unique": [
+            "customJob_1"
+        ],
+        "jobtypeDropdown": "General Auto Repair",
+        "mechanicDropdown": "Abdullah"
+    },
+    "saveAsCannedService": {
+        "saveAsCannedDropdown": "Save as Canned Service",
+        "successToastContainsText": "Job Save As Canned Successfully"
+    },
+    "repairTimes": {
+        "repairTimesTextButton": "Repair Time Guides",
+        "addRepairTimes": {
+            "vin": "1FTZX1722XKA76091",
+            "row": "div.MuiAccordion-rounded",
+            "selectRepairTime": "input[type='checkbox']",
+            "time": "div.MuiAccordionSummary-content > div > div:nth-child(3)",
+            "laborRate": "12",
+            "markup": "25",
+            "total": "div.MuiGrid-grid-xs-4 p:nth-child(2)"
+        },
+        "saveTextButton": "Save"
+    }
+}

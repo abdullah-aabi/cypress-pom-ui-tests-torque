@@ -1,0 +1,85 @@
+{
+    "message": "Data fetched successfully",
+    "data": {
+        "ro": {
+            "id": 18,
+            "repairOrderId": "000018",
+            "estimateId": null,
+            "appointmentId": null,
+            "extrasWithVehicle": "Air Pods 2, Keys, Hair Brush, Deo.",
+            "mileageInType": "MPH",
+            "mileageIn": 20012,
+            "visitType": "dropOff",
+            "orderStage": "Inspection",
+            "notes": "Ro Created by Automation Bot",
+            "customerId": 7,
+            "vehicleId": 5,
+            "serviceAdvisorId": 1,
+            "labourClassId": 2,
+            "serviceWriterId": 1,
+            "jobBoardStatusId": 1,
+            "publicView": "U2FsdGVkX1||GY4OukAXikVsrJTwEfPIuqG4dUdI7+o0=",
+            "workOrderStatus": null,
+            "bayNumber": null,
+            "tags": null,
+            "keyLocation": null,
+            "totalAttachments": 0,
+            "isArchived": false,
+            "createdAt": "2022-06-06T07:49:27.000Z",
+            "updatedAt": "2022-06-06T07:49:27.000Z",
+            "estimate": null,
+            "jobs": [
+                {
+                    "id": 34,
+                    "title": null,
+                    "roId": 18,
+                    "concernRecommendationId": 66,
+                    "jobtype": null,
+                    "jobStatus": null,
+                    "extrasWithJob": {
+                        "labours": [],
+                        "miscellaneous": [],
+                        "parts_supplies": []
+                    },
+                    "timeSpent": null,
+                    "approvalMethod": null,
+                    "authorizationStatus": "No Action",
+                    "serviceAdvisorId": null,
+                    "isAuthorized": false,
+                    "totalHours": null,
+                    "totalTax": null,
+                    "totalItems": null,
+                    "totalCost": null,
+                    "subTotal": null,
+                    "labourCharges": null,
+                    "partSupplyCost": null,
+                    "miscellaneousCharges": null,
+                    "discount": null,
+                    "grossProfit": null,
+                    "partCost": null,
+                    "supplyCost": null,
+                    "partSupplyStatus": null,
+                    "notes": null,
+                    "labourSubTotal": null,
+                    "partSupplySubTotal": null,
+                    "miscSubTotal": null,
+                    "createdAt": "2022-06-06T10:02:52.000Z",
+                    "updatedAt": "2022-06-06T10:02:52.000Z",
+                    "ro_concerns_recommendation": {
+                        "issueType": "techRecommendation",
+                        "view": false
+                    },
+                    "co_user": null
+                }
+            ],
+            "labourClass": {
+                "id": 2,
+                "className": "Zero Dollar",
+                "classRate": 0,
+                "classStatus": true,
+                "createdAt": "2022-05-31T07:56:38.000Z",
+                "updatedAt": "2022-05-31T07:56:38.000Z"
+            }
+        }
+    }
+}

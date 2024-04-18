@@ -1,0 +1,75 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-nested-ternary": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "operator-linebreak": "off",
+    "implicit-arrow-linebreak": "off",
+    "jsx-quotes": [2, "prefer-single"],
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-curly-newline": "off",
+    "react/destructuring-assignment": "off",
+    "no-param-reassign": "off",
+    "object-curly-newline": "off",
+    "radix": "off",
+    "no-debugger": "off",
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "arrow-body-style": 0,
+    "array-callback-return": "off",
+    "consistent-return": "off",
+    "no-restricted-syntax": "off",
+    "guard-for-in": "off",
+    "no-useless-computed-key": "off",
+    "no-unneeded-ternary": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "prefer-template": "off",
+    "prefer-destructuring": "off",
+    "react/require-default-props": "off",
+    "react/forbid-prop-types": "off",
+    "no-restricted-globals": "off",
+    "indent": "off",
+    "no-case-declarations": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "react/jsx-wrap-multilines": "off",
+    "one-var": "off",
+    "no-plusplus": "off",
+    "dot-notation": "off",
+    "object-shorthand": "off",
+    "react/jsx-indent": "off",
+    "linebreak-style": 0,
+    "no-multi-assign": "off",
+    "function-paren-newline": "off",
+    "no-underscore-dangle": "off"
+  }
+}

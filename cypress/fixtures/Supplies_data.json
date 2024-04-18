@@ -1,0 +1,176 @@
+{
+    "NewSupply": {
+        "addedSuppliesTextButton": "Add Supplies",
+        "addNewToggleTextButton": "Add New Item",
+        "supplyImageHolder": "valid_image.png",
+        "brand": "Yolo Brand",
+        "item": "Item_name one",
+        "vendor": "Jurrasic vendor",
+        "sku": "S1F01861871",
+        "quantity": "2",
+        "cost": "80",
+        "serviceMarkup": 10,
+        "retailPriceEvaluated": "88",
+        "expiryDate": "08/30/2022",
+        "notes": "The supply is created by Cypress Bot",
+        "successMsg": "Supply Added Successfully!"
+    },
+    "newData": {
+        "Customer": {
+            "name": "qa_twenty seven ",
+            "customerEmail": "qa.abdullah360+27@gmail.com",
+            "phone": 11111111127
+        },
+        "Vehicle": {
+            "vehiclePlate": "GAB-1127"
+        }
+    },
+    "validData": {
+        "Parts": {
+            "partImageHolder": "valid_image.png",
+            "partCategoryDropdown": "Interior",
+            "partTypeDropdown": "Transmission",
+            "partName": "part_name one",
+            "partNumber": "1",
+            "sku": "S1F01861871",
+            "vehicleMake": "Ford",
+            "vehicleModel": "Mustang",
+            "vehicleModelYear": "2018",
+            "quantity": "3",
+            "vendor": "Jurrasic vendor",
+            "manufacturer": "Manufacturer Yolo",
+            "cost": "80",
+            "tags": "backend",
+            "serviceMarkup": "5",
+            "retailPrice": "110",
+            "expiryDate": "08/30/2022",
+            "purchaseDate": "08/30/2021",
+            "isTaxedRadio": "yes",
+            "taxPercentage": "5",
+            "notes": "The part is created by Cypress Bot"
+        },
+        "Labors": {
+            "category": "Maintenance one",
+            "hours": "2",
+            "rate": "10",
+            "discount": "5",
+            "subTotalCost": "20",
+            "totalCost": "19",
+            "isTaxedRadio": "yes",
+            "tax": "5",
+            "description": "The Labor work on the task",
+            "notes": "The labor is created by Cypress Bot"
+        },
+        "Supplies": {
+            "supplyImageHolder": "valid_image.png",
+            "brand": "Yolo Brand",
+            "item": "Item_name one",
+            "vendor": "Jurrasic vendor",
+            "quantity": "2",
+            "sku": "S1F01861871",
+            "cost": "80",
+            "retailPrice": "110",
+            "expiryDate": "08/30/2022",
+            "purchaseDate": "08/30/2021",
+            "isTaxedRadio": "yes",
+            "tax": "5",
+            "notes": "The supply is created by Cypress Bot"
+        }
+    },
+    "exceedingCharaterLimits": {
+        "Parts": {
+            "partName": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghis",
+            "partNumber": "1234567890abcd efghis",
+            "sku": "1234567890abcd es",
+            "vehicleMake": "abcd efghiabcd efghis",
+            "vehicleModel": "abcd efghiabcd efghis",
+            "vehicleModelYear": "20182",
+            "quantity": "99999",
+            "vendor": "abcd efghiabcd efghiabcd efghiabcd efghis",
+            "manufacturer": "abcd efghiabcd efghiabcd efghiabcd efghis",
+            "serviceMarkup": "990",
+            "retailPrice": "999991",
+            "notes": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiSSSSSSSSSSS"
+        },
+        "Labors": {
+            "category": "abcd efghiabcd efghis",
+            "hours": "9999",
+            "rate": "99999",
+            "discount": "999",
+            "subTotalCost": "9999999",
+            "totalCost": "9999999",
+            "description": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiSSSSSSSSSSS",
+            "notes": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiSSSSSSSSSSS"
+        },
+        "Supplies": {
+            "supplyImageHolder": "invalid_image.png",
+            "brand": "abcd efghiabcd efghis",
+            "item": "abcd efghiabcd efghiS",
+            "vendor": "abcd efghiabcd efghis",
+            "quantity": "999999",
+            "sku": "1234567890abcd es",
+            "retailPrice": "999991",
+            "notes": "abcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiabcd efghiSSSSSSSSSSS"
+        }
+    },
+    "invalidData": {
+        "Parts": {
+            "partImageHolder": "invalid_image.png",
+            "partName": "part_name one#2",
+            "partNumber": "-1",
+            "sku": "S1F018671#@",
+            "vehicleMake": "Ford#2",
+            "vehicleModel": "Mustang#2",
+            "vehicleModelYear": "-15",
+            "quantity": "-3",
+            "vendor": "Jurrasic vendor#2",
+            "manufacturer": "Manufacturer Yolo#2",
+            "serviceMarkup": "-5",
+            "retailPrice": "-11"
+        },
+        "Labors": {
+            "category": "Maintenance 1#@$",
+            "hours": "-2",
+            "rate": "-10",
+            "discount": "-5",
+            "subTotalCost": "-20",
+            "totalCost": "-19"
+        },
+        "Supplies": {
+            "supplyImageHolder": "invalid_image.png",
+            "brand": "Yolo Brand#2",
+            "item": "Item_name 1%^",
+            "vendor": "Jurrasic vendor^&2",
+            "quantity": "-2",
+            "sku": "S1F018618#$%",
+            "retailPrice": "-11"
+        }
+    },
+    "errorMessages": {
+        "exceedingCharaterLimits": [
+            "Character Limit Exceeded",
+            "Percentage Should be 0-100",
+            "Should be less than current year",
+            "modelYear must be less than or equal to 2021"
+        ],
+        "invalidData": [
+            "you must specify a number",
+            "Invalid Email",
+            "Only alphabets are allowed for this field ",
+            "Specify a postive number",
+            "must be greater than or equal to 1",
+            "Only alphanumeric are allowed for this field ",
+            "Must be exactly 4 characters",
+            "quantity must be a positive number",
+            "serviceMakeup must be greater than or equal to 0",
+            "retailPrice must be a positive number",
+            "hours must be greater than or equal to 0",
+            "rate must be greater than or equal to 0",
+            "discount must be greater than or equal to 0",
+            "subTotalCost must be greater than or equal to 0",
+            "totalCost must be greater than or equal to 0",
+            "quantity must be greater than or equal to 0",
+            "retailPrice must be greater than or equal to 0"
+        ]
+    }
+}

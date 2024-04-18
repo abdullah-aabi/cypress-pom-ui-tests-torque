@@ -1,0 +1,14 @@
+{
+    "submitTrialForm": {
+        "trialEmail_Unique": "qa+1@gmail.com",
+        "successMsg": "Thank you for your message. It has been sent."
+    },
+    "create": {
+        "name": "test garage",
+        "userEmail_Unique": "qa+1@gmail.com",
+        "phone": "1111111111",
+        "password": "Torque@360",
+        "successMsgFirst": "Thank you for signing up with Torque. Your account confirmation link has been sent to ",
+        "successMsgSecond": ", click the link in the email to confirm your account. We're happy to have you on board."
+    }
+}

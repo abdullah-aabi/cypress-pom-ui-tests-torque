@@ -1,0 +1,8 @@
+{
+    "creates": {
+        "updateAmount": "1",
+        "notes": "Paid by QA",
+        "payNowTextButton": "Pay Now",
+        "successMsg": "Payment Processed Successfully!"
+    }
+}

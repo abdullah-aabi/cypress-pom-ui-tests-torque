@@ -1,0 +1,15 @@
+{
+
+    "changesJobcard": {
+        "newJobCardContainsText": "kard -",
+        "newJobCardIdentifier": "kard -",
+        "readyStatusTextButton": "Ready"
+    },
+    "addNotesOnPaidJobCard": {
+        "addNotesOnPaidJobCardMenuIdentifier": "kard -",
+        "addNotes": "Fully Paid!"
+    },
+    "archiveJobCard": {
+        "paidJobCardMenuIdentifier": "kard -"
+    }
+}

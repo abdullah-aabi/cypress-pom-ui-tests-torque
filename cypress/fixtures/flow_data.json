@@ -1,0 +1,183 @@
+{
+    "Appointment": {
+        "creates": {
+            "appointmentNotes": "This appointment is created by Automation bot.",
+            "successMsg": "Appointment has been created"
+        },
+        "closeAppointment": {
+            "closingComments": "Closed by QA Bot, after apppointment completion.",
+            "closeAppointmentTextButton": "Close Appointment"
+        }
+    },
+    "Inspection": {
+        "creates": {
+            "inspectionTitle": "testing title 1",
+            "generalInspectionTextButton": "General Inspection",
+            "interiorExteriorTabButton": {
+                "Headlights": "bad",
+                "Mirrors": "OK",
+                "Horn": "moderate",
+                "Fuel Tank Gasket": "bad",
+                "Door Locks": "moderate",
+                "Body Paint": "bad"
+            },
+            "underVehicleTabButton": {
+                "Suspension": "bad",
+                "Exhaust": "moderate",
+                "Tyre /wheel LF": "OK",
+                "RF": "bad"
+            },
+            "underHoodTabButton": {
+                "Fluid Levels & Leaks": "bad",
+                "Drive Belts": "moderate",
+                "Coolant": "OK"
+            },
+            "electronicsTabButton": {
+                "Battery Voltage": "bad",
+                "Instrument Cluster": "moderate"
+            },
+            "saveGeneralInspectionBtn": "button[class*='scss_popup__save_btn']",
+            "detailedInspectionTextButton": "Detailed Inspection",
+            "detailSearchTabButton": {
+                "Antenna": "bad",
+                "Belt-Timing": "OK",
+                "Body-Paint Damage": "moderate",
+                "Interior Detailing": "bad",
+                "Bearing-Right Front": "moderate",
+                "Throw-outBearing-Noise": "bad",
+                "Cooling System-Overheats": "bad",
+                "U Joint-Rear": "moderate"
+            },
+            "diagnosticCode": "p0326",
+            "fuelGaugeImageHolder": "fuelGuageImage.jpg",
+            "odoMeter": "12004",
+            "odoMeterImageHolder": "odoMeterImage.jpg",
+            "extrasWithVehicle": "Hand Bag, Supplement",
+            "successMsg": "Digital Vehicle Inspection generated successfully!"
+        }
+    },
+    "Estimate": {
+        "creates": {
+            "jobTypes": [
+                "Body Work",
+                "Transmission",
+                "Brakes",
+                "Error Codes & Diagnostic Checkup",
+                "Electrical",
+                "Others"
+            ],
+            "otherJobType": "Shiner, Smoke Filtering",
+            "problemSearch": "ca",
+            "problemTypes": [
+                "Automatic Trans Shift Cable Replacement",
+                "Carrier Bearing Replacement",
+                "Gas Cap Replacement",
+                "Transfer Case Replacement"
+            ],
+            "notes": " > All problems should be fixed ASAP.",
+            "addPartsTextButton": "Add Parts",
+            "searchPartsMultiple": [
+                "Tyre2by2",
+                "Tinted Screen",
+                "Rims4by4"
+            ],
+            "addedPartsTextButton": "Add Parts",
+            "addSuppliesTextButton": "Add Supplies",
+            "searchSuppliesMultiple": [
+                "Indicators",
+                "Gauge Meter",
+                "Convex lens"
+            ],
+            "addedSuppliesTextButton": "Add Item",
+            "addLaborsTextButton": "Add Labor",
+            "laborSearch": "202",
+            "laborTypes": [
+                "Tyre change202",
+                "Maintenance202",
+                "Washing202",
+                "Air filling202",
+                "Filter Wash202"
+            ],
+            "addedLaborsTextButton": "Add Labor",
+            "manHours": "21.5",
+            "tax": "5",
+            "discountToggleTextButton": "%",
+            "discount": "10",
+            "successMsg": "Estimate Created Successfully!"
+        }
+    },
+    "Jobcard": {
+        "creates": {
+            "generateTextButton": "Generate Job Card",
+            "successMsg": "Job Card Created Successfully!"
+        }
+    },
+    "NewJobcard": {
+        "addsNewData": {
+            "jobTypes": [
+                "Body Work",
+                "Transmission",
+                "Brakes",
+                "Error Codes & Diagnostic Checkup",
+                "Electrical",
+                "Others"
+            ],
+            "otherJobType": "Shiner, Smoke Filtering",
+            "problemSearch": "ca",
+            "problemTypes": [
+                "Automatic Trans Shift Cable Replacement",
+                "Carrier Bearing Replacement",
+                "Gas Cap Replacement",
+                "Transfer Case Replacement"
+            ],
+            "notes": " > All problems should be fixed ASAP.",
+            "addPartsTextButton": "Add Parts",
+            "searchPartsMultiple": [
+                "Tyre2by2",
+                "Tinted Screen",
+                "Rims4by4"
+            ],
+            "addedPartsTextButton": "Add Parts",
+            "addSuppliesTextButton": "Add Supplies",
+            "searchSuppliesMultiple": [
+                "Indicators",
+                "Gauge Meter",
+                "Convex lens"
+            ],
+            "addedSuppliesTextButton": "Add Item",
+            "addLaborsTextButton": "Add Labor",
+            "laborSearch": "202",
+            "laborTypes": [
+                "Tyre change202",
+                "Maintenance202",
+                "Washing202",
+                "Air filling202",
+                "Filter Wash202"
+            ],
+            "addedLaborsTextButton": "Add Labor"
+        }
+    },
+    "Jobboard": {
+        "changesJobcard": {
+            "newJobCardIdentifier": "kard -",
+            "readyStatusTextButton": "Ready"
+        }
+    },
+    "Invoice": {
+        "creates": {
+            "cardInvoiceIdentifier": "kard -",
+            "cardCreateInvoiceIdentifier": "kard -",
+            "successMsg": "Invoice has been created!"
+        }
+    },
+    "Payments": {
+        "creates": {
+            "cardPaymentCashIdentifier": "kard -",
+            "amountPaid": "1000",
+            "cardAddPaymentIdentifier": "kard -",
+            "successMsg": "Payment Processed Successfully!",
+            "cardGenInvoiceIdentifier": "kard -",
+            "paidJobCardMenuIdentifier": "kard -"
+        }
+    }
+}

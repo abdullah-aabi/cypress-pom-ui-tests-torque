@@ -1,0 +1,52 @@
+[
+    {
+      "category": "Washing202",
+      "hours": 3,
+      "rate": 2.37,
+      "laborHourCost": 7.11,
+      "serviceMarkup": 60,
+      "laborItemPrice": 11.376,
+      "description": "Created by bot 100",
+      "notes": "Created by bot 100"
+    },
+    {
+      "category": "Filter Wash202",
+      "hours": 1,
+      "rate": 4.91,
+      "laborHourCost": 4.91,
+      "serviceMarkup": 100,
+      "laborItemPrice": 9.82,
+      "description": "Created by bot 109",
+      "notes": "Created by bot 109"
+    },
+    {
+      "category": "Air filling202",
+      "hours": 2,
+      "rate": 11.07,
+      "laborHourCost": 22.14,
+      "serviceMarkup": 60,
+      "laborItemPrice": 35.424,
+      "description": "Created by bot 105",
+      "notes": "Created by bot 105"
+    },
+    {
+      "category": "Maintenance202",
+      "hours": 1,
+      "rate": 4.27,
+      "laborHourCost": 4.27,
+      "serviceMarkup": 20,
+      "laborItemPrice": 5.124,
+      "description": "Created by bot 103",
+      "notes": "Created by bot 103"
+    },
+    {
+      "category": "Tyre change202",
+      "hours": 1,
+      "rate": 21.77,
+      "laborHourCost": 21.77,
+      "serviceMarkup": 10,
+      "laborItemPrice": 23.947,
+      "description": "Created by bot 101",
+      "notes": "Created by bot 101"
+    }
+   ]

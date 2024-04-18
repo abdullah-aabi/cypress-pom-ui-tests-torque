@@ -1,0 +1,35 @@
+[
+  {
+    "item": "Indicators",
+    "sku": "SQA-1538",
+    "brand": "Mercedes-Benz",
+    "quantity": 2,
+    "vendor": "Mercedes-Benz Vendor",
+    "cost": 2.37,
+    "serviceMarkup": 100,
+    "retailPrice": 4.74,
+    "notes": "Created by bot 539"
+  },
+  {
+    "item": "Gauge Meter",
+    "sku": "SQA-1546",
+    "brand": "Oldsmobile",
+    "quantity": 2,
+    "vendor": "Oldsmobile Vendor",
+    "cost": 6.54,
+    "serviceMarkup": 50,
+    "retailPrice": 9.81,
+    "notes": "Created by bot 547"
+  },
+  {
+    "item": "Convex lens",
+    "sku": "SQA-1531",
+    "brand": "Lotus",
+    "quantity": 2,
+    "vendor": "Lotus Vendor",
+    "cost": 1.75,
+    "serviceMarkup": 50,
+    "retailPrice": 2.625,
+    "notes": "Created by bot 532"
+  }
+ ]

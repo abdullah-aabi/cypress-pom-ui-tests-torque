@@ -1,0 +1,90 @@
+{
+    "allFields": {
+        "inspectionTitle": "testing title 1",
+        "obdCode1": "P0213{enter}",
+        "diagnosticCode": "p0326",
+        "fuelGaugeImageHolder": "fuelGuageImage.jpg",
+        "odoMeter": "12004",
+        "odoMeterImageHolder": "odoMeterImage.jpg",
+        "extrasWithVehicle": "Hand Bag, Supplement",
+        "notes": "This is inspection is created by QA Bot."
+    },
+    "inspectionTypes": {
+        "interiorExterior": {
+            "Headlights": "bad",
+            "Mirrors": "OK",
+            "Horn": "moderate"
+        },
+        "underVehicle": {
+            "Exhaust": "moderate"
+        },
+        "underHood": {
+            "Fluid Levels & Leaks": "bad"
+        },
+        "electronics": {
+            "Instrument Cluster": "moderate"
+        },
+        "detailSearch": {
+            "Antenna": "bad",
+            "Belt-Timing": "OK",
+            "Body-Paint Damage": "moderate"
+        }
+    },
+    "recommendationSelected": {
+        "Headlights": "bad",
+        "Mirrors": "OK",
+        "Horn": "moderate",
+        "Exhaust": "moderate",
+        "Fluid Levels & Leaks": "bad",
+        "Instrument Cluster": "moderate",
+        "Antenna": "bad",
+        "Belt-Timing": "OK",
+        "Body-Paint Damage": "moderate"
+    },
+    "previewFields": {
+        "inspectionByInputField": 0,
+        "inspectionTitleInputField": 1,
+        "inspectionNoLabelField": 0,
+        "customerNameLabelField": 4,
+        "vehicleNameLabelField": 0,
+        "vehicleColorSubLabel": "Color:",
+        "vehiclePlateSubLabel": "LicensePlate:",
+        "partsCondition": [
+            "badHeadlights",
+            "OKMirrors",
+            "moderateHorn",
+            "badFuel Tank Gasket",
+            "moderateDoor Locks",
+            "badBody Paint",
+            "badSuspension",
+            "moderateExhaust",
+            "OKTyre /wheel LF",
+            "badRF",
+            "badFluid Levels & Leaks",
+            "moderateDrive Belts",
+            "OKCoolant",
+            "badBattery Voltage",
+            "moderateInstrument Cluster",
+            "badAntenna",
+            "OKBelt-Timing",
+            "moderateBody-Paint Damage",
+            "badInterior Detailing",
+            "moderateBearing-Right Front",
+            "badThrow-outBearing-Noise",
+            "badCooling System-Overheats",
+            "moderateU Joint-Rear"
+        ],
+        "extrasWithVehicleInputField": 0,
+        "notesInputField": 0,
+        "writerInputField": 0
+    },
+    "mandatoryFields": {},
+    "authorizes": {
+        "successMsg": "Inspection Created Successfully."
+    },
+    "generateInvalid": {
+        "errorMsg": "Select atleast one inspection type."
+    },
+    "generateValid": {},
+    "disabledFields": {}
+}

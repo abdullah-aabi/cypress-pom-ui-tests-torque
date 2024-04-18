@@ -1,0 +1,37 @@
+{
+    "creates": {
+        "notes": "Checkout quickly.",
+
+        "addPartsTextButton": "Add Parts",
+        "searchPartsMultiple": [
+            "Tyre2by2",
+            "Tinted Screen",
+            "Rims4by4"
+        ],
+        "addedPartsTextButton": "Add Parts",
+
+        "addSuppliesTextButton": "Add Supplies",
+        "searchSuppliesMultiple": [
+            "Indicators",
+            "Gauge Meter",
+            "Convex lens"
+        ],
+        "addedSuppliesTextButton": "Add Item",
+
+        "addLaborsTextButton": "Add Labor",
+        "laborSearch": "202",
+        "laborTypes": [
+            "Tyre change202",
+            "Maintenance202",
+            "Washing202",
+            "Air filling202",
+            "Filter Wash202"
+        ],
+        "addedLaborsTextButton": "Add Labor",
+        "tax": "5",
+        "discountToggleTextButton": "%",
+        "discount": "10",
+
+        "successMsg": "Invoice has been created"
+    }
+}

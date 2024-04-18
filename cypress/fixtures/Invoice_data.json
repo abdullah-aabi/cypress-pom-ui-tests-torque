@@ -1,0 +1,7 @@
+{
+    "creates": {
+        "cardInvoiceIdentifier": "kard -",
+        "cardCreateInvoiceIdentifier": "kard -",
+        "successMsg": "Invoice has been created!"
+    }
+}

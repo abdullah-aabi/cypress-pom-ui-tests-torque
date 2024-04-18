@@ -1,0 +1,67 @@
+{
+  "taxClasses": [
+    {
+      "data": [
+        {
+          "name": "GST",
+          "percentage": "8.17",
+          "all": true,
+          "part": true,
+          "supply": true,
+          "labour": true,
+          "isActive": true,
+          "is_edit": false,
+          "is_new": false
+        }
+      ]
+    }
+  ],
+  "pricingMatrices": [
+    {
+      "name": "cypress_matrix",
+      "isDefault": true,
+      "ranges": [
+        {
+          "startRange": 0.00,
+          "endRange": 49.9,
+          "markUp": 15,
+          "margin": 13.04
+        },
+        {
+          "endRange": "beyond",
+          "markUp": 10,
+          "margin": 9.09,
+          "startRange": 50,
+          "pricingMatrixId": null
+        }
+      ]
+    }
+  ],
+  "laborClasses": [
+    {
+      "className": "Zero Dollar",
+      "classRate": 0.0,
+      "classStatus": true
+    }
+  ],
+  "customerConcern": [
+    {
+      "id": null,
+      "description": "test",
+      "title": "test",
+      "condition": "moderate",
+      "issueType": "customerConcern",
+      "roId": "8"
+    }
+  ],
+  "techRecommendation": [
+    {
+      "id": null,
+      "description": "test",
+      "title": "test",
+      "condition": "moderate",
+      "issueType": "techRecommendation",
+      "roId": "8"
+    }
+  ]
+}

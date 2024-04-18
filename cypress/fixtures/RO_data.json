@@ -1,0 +1,94 @@
+{
+    "popup": {
+        "extrasWithVehicle": "Air Pods 2, Keys, Hair Brush, Deo.",
+        "mileageIn": "20012",
+        "visitTypeDropdown": "Drop Off",
+        "serviceAdvisorDropdown": "Abdullah",
+        "laborRateDropdown": "Zero Dollar",
+        "customerConcernsMultiple": [
+            "Automatic Trans Shift Cable Replacement",
+            "Carrier Bearing Replacement",
+            "Gas Cap Replacement",
+            "Transfer Case Replacement",
+            "User Defined Concern 1",
+            "User Defined Concern 2",
+            "User Defined Concern 3"
+        ],
+        "notes": "Ro Created by Automation Bot",
+        "successMsg": "RO Created Successfully."
+    },
+    "addCustomerVehicle": {},
+    "customerInformation": {
+        "name": "Jack Sparrow",
+        "customerEmail": "qa.abdullah360+sparrow@gmail.com",
+        "phone": "19179206645",
+        "address": "16465 Henderson Pass"
+    },
+    "vehicleInformation": {
+        "vehicleModelYear": "2022",
+        "vehicleMake": "Honda",
+        "vehicleModel": "Vezel",
+        "vehiclePlate": "P9G76R",
+        "engineDisplacement": "1.5",
+        "vehicleLitersDropdown": "Liters",
+        "vehicleColor": "Black"
+    },
+    "assertCustomerInformation": {
+        "nameAssertText": "Jack Sparrow",
+        "customerEmailAssertText": "qa.abdullah360+sparrow@gmail.com",
+        "phoneAssertText": "Mobile: +19179206645",
+        "address": "16465 Henderson Pass"
+    },
+    "assertVehicleInformation": {
+        "yearMakeModelAssertText": "2022 Honda Vezel",
+        "vehicleMake": "Honda",
+        "vehicleModel": "Vezel",
+        "vehiclePlateAssertText": "License Plate : P9G76R",
+        "engineDisplacementAssertText": "Engine Size: 1.5 Liters",
+        "vehicleLitersDropdown": "Liters",
+        "vehicleColor": "Black"
+    },
+    "assertRODetails": {
+        "concernCountAssertText": "07",
+        "technicianCountAssertText": "00",
+        "inpectionCountAssertText": "Inspections (0)",
+        "addedConcernsIncludes": [
+            "Automatic Trans Shift Cable Replacement",
+            "Carrier Bearing Replacement",
+            "Gas Cap Replacement",
+            "Transfer Case Replacement",
+            "User Defined Concern 1",
+            "User Defined Concern 2",
+            "User Defined Concern 3"
+        ],
+        "generalInfoAccordianTextButton": "General Information",
+        "mileageInAssertValue": "20012",
+        "extrasAssertValue": "Air Pods 2, Keys, Hair Brush, Deo.",
+        "notesAssertValue": "Ro Created by Automation Bot"
+    },
+    "createUsingApi": {
+        "roData": {
+            "extrasWithVehicle": "Air Pods 2, Keys, Hair Brush, Deo.",
+            "mileageIn": "20012",
+            "mileageInType": "MPH",
+            "concerns": [
+                {
+                    "id": 2,
+                    "title": "Air Injection System Air Bypass Valve Replacement"
+                }
+            ],
+            "newConcerns": [],
+            "notes": "Ro Created by Automation Bot Using Api",
+            "labourClassId": 8,
+            "serviceAdvisorId": 1
+        },
+        "isCustomerEdit": false,
+        "customer": {
+            "name": "test_1",
+            "phone": "11000000001",
+            "email": "abdullah+1@torque360.co",
+            "address": "401k, NY"
+        },
+        "isVehicleEdit": false
+    }
+}

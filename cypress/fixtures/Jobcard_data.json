@@ -1,0 +1,57 @@
+{
+    "creates": {
+        "generateTextButton": "Generate Job Card",
+        "successMsg": "Job Card Created Successfully!"
+    },
+    "addsNewData": {
+        "jobTypes": [
+            "Body Work",
+            "Transmission",
+            "Brakes",
+            "Error Codes & Diagnostic Checkup",
+            "Electrical",
+            "Others"
+        ],
+        "otherJobType": "Shiner, Smoke Filtering",
+        "problemSearch": "ca",
+        "problemTypes": [
+            "Automatic Trans Shift Cable Replacement",
+            "Carrier Bearing Replacement",
+            "Gas Cap Replacement",
+            "Transfer Case Replacement"
+        ],
+        "notes": " > All problems should be fixed ASAP.",
+        "tax": "5"
+    },
+    "addDiscountPercentage": {
+        "discountToggleTextButton": "%",
+        "discount": "10"
+    },
+    "addDiscountFixed": {
+        "discountToggleTextButton": "$",
+        "discount": "10"
+    },
+    "parts": {
+        "searchPartsMultiple": [
+            "Tyre2by2",
+            "Tinted Screen",
+            "Rims4by4"
+        ],
+        "addedPartsTextButton": "Add Parts"
+    },
+    "supplies": {
+        "searchSuppliesMultiple": [
+            "Indicators",
+            "Gauge Meter",
+            "Convex lens"
+        ],
+        "addedSuppliesTextButton": "Add Item"
+    },
+    "labors": {
+        "laborSearch": "Maintenance202",
+        "laborTypes": [
+            "Maintenance202"
+        ],
+        "addedLaborsTextButton": "Add Labor"
+    }
+}
